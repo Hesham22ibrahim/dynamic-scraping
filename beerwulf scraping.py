@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Nov 27 19:18:05 2020
-
-@author: Lion PC
+this code is practice project to scrape dyrnamic websites, in this case beerwulf.com.
 """
 
 
@@ -42,7 +40,7 @@ def parse(products):
               'price':price,
               'stock':stock}
         drinklist.append(drink)
-        print(len(drinklist))
+        
 
 
 def csv_output():
